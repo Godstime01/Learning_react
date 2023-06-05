@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    img{
+        max-width: 100%;
+    }
+}
+
+@layer utilities{
+    .button__style{
+        @apply bg-pink font-bold text-white px-3 py-2 shadow-md;
+    }
+
+    .footer__link{
+        @apply text-[#8A8FB9] hover:underline
+    }
+}
